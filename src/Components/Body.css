@@ -1,3 +1,46 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
 .container{
     display: flex;
+    gap: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: #343637;
+}
+.container input{
+    width: 5rem;
+    height: 2.3rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 15px -10px black;
+    padding: 0 0 0 0.8rem;
+    font-size: 1.1rem;
+}
+.container button{
+    padding: 0.5rem 2rem;
+    background-color: #fc983b;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    color: white;
+    box-shadow: 0 0 15px -10px black;
+}
+.displayInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    color: #99430A;
 }

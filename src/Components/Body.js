@@ -31,10 +31,10 @@ export default function Body(){
             </div>
             <div className="displayInfo">
                 {
-                    arr.map((e)=>{
+                    arr.map((e,index)=>{
                         return(
                             <p>
-                                {e.paragraph}
+                                {index+1}&#41;{e.paragraph}
                             </p>
                         )
                     })
